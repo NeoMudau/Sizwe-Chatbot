@@ -16,7 +16,7 @@ Mental health support resources in South Africa are largely English-only. Millio
 
 | Layer | Technology |
 |-------|-----------|
-| Language | JavaScript (Vanilla) |
+| Language | JavaScript |
 | NLP | Custom-built (no paid APIs) |
 | Multilingual | Custom language detection engine |
 | Conversation | Custom flow logic with fallback handling |
@@ -37,9 +37,7 @@ Mental health support resources in South Africa are largely English-only. Millio
 
 - English
 - Zulu (isiZulu)
-- Sotho (Sesotho)
-- Tswana (Setswana)
-- Venda (Tshivenḓa)
+- (More to be added)
 
 ---
 
@@ -62,9 +60,6 @@ User Input
 function detectLanguage(input) {
   const patterns = {
     zulu:    ['sawubona', 'yebo', 'ngiyabonga', 'unjani'],
-    sotho:   ['dumela', 'ke a leboha', 'o phela joang'],
-    tswana:  ['dumela', 'ke a leboga', 'o tsogile jang'],
-    venda:   ['ndaa', 'ndi a livhuwa', 'vho vuwa hani'],
     english: ['hello', 'hi', 'thanks', 'how are you']
   };
   // match input tokens against pattern lists
@@ -97,7 +92,7 @@ open index.html
 ## 📁 Project Structure
 
 ```
-maish-chatbot/
+Sizwe-chatbot/
 ├── index.html              # Main UI
 ├── css/
 │   └── styles.css          # Chatbot styling

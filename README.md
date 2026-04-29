@@ -2,6 +2,9 @@
 
 Sizwe is a mental health chatbot designed to provide support and conversations in multiple languages. This project is still under development, but others are welcome to explore and learn from it.  
 
+## "Sizwe - Mental Health Chatbot Prototype"
+### This is the prototype
+
 ## 🚀 Features  
 ✅ Multi-language support for diverse users  
 ✅ Mental health-focused responses  
